@@ -1,0 +1,14 @@
+{
+    "branch": {
+        "regex": "([a-z])+/([a-z0-9\\-])+",
+        "allowed_prefixes": "feature,bug,hotfix,release,experimental",
+        "ignore": "main,develop",
+        "min_length": 5,
+        "max_length": 30
+    },
+    "repo": {
+        "regex": "([a-z0-9\\-_])+",
+        "min_length": 5,
+        "max_length": 30
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "commonjs": true,
+        "node": true,
+        "jquery": true
+    },
+    "ignorePatterns": "**/assets/public"
+}

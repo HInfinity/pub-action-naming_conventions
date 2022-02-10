@@ -1,0 +1,10 @@
+{
+    "compress": {
+        "unsafe": true
+    },
+    "mangle": false,
+    "keep_fnames": true,
+    "keep_classnames": true,
+    "ecma": 6,
+    "module": true
+}

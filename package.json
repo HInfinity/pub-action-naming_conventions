@@ -1,0 +1,30 @@
+{
+  "name": "naming-conventions",
+  "version": "1.0.0",
+  "description": "Action to enforce naming conventions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx ncc build index.js -o dist",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HInfinity/act-com-naming_conventions.git"
+  },
+  "keywords": [
+    "naming"
+  ],
+  "author": "Olesia Kochergina",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/HInfinity/act-com-naming_conventions/issues"
+  },
+  "homepage": "https://github.com/HInfinity/act-com-naming_conventions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.1"
+  }
+}

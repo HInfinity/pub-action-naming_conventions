@@ -1,0 +1,94 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "liquid.rules": {
+            "ignore": [
+                {
+                    "type": "liquid",
+                    "begin": "comment",
+                    "end": "endcomment"
+                },
+                {
+                    "type": "html",
+                    "begin": "script",
+                    "end": "script"
+                },
+                {
+                    "type": "html",
+                    "begin": "style",
+                    "end": "style"
+                }
+            ],
+            "html": {
+                "correct": false,
+                "force_attribute": false,
+                "braces": false,
+                "preserve": 2,
+                "unformatted": false
+            },
+            "js": {
+                "preserve": 1,
+                "method_chain": 0,
+                "quote_convert": "none",
+                "format_array": "indent",
+                "format_object": "indent",
+                "braces": false,
+                "no_semicolon": false,
+                "brace_block": true
+            },
+            "scss": {
+                "css_insert_lines": true,
+                "preserve": 2,
+                "braces": false,
+                "brace_block": true
+            },
+            "css": {
+                "css_insert_lines": true,
+                "preserve": 2,
+                "braces": false,
+                "brace_block": true
+            },
+            "json": {
+                "preserve": 0,
+                "braces": false,
+                "brace_block": true,
+                "no_semicolon": true
+            }
+        },
+        "liquid.format": true,
+        "editor.fontSize": 14,
+        "editor.wordWrapColumn": 250,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "git.autofetch": "all",
+        "git.autofetchPeriod": 7200,
+        "git.autoStash": true,
+        "scss.lint.duplicateProperties": "warning",
+        "scss.lint.float": "warning",
+        "scss.lint.important": "warning",
+        "eslint.format.enable": true,
+        "prettier.configPath": ".prettierrc.json",
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[scss]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "files.autoSave": "afterDelay",
+        "json.maxItemsComputed": 10000
+    },
+    "extensions": {
+        "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "olback.es6-css-minify", "donjayamanne.githistory", "eg2.vscode-npm-script"]
+    }
+}

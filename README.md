@@ -4,7 +4,7 @@ Github Action to validate repository and branch naming within HInfinity.
 
 ## About
 
-The project allows to verify the validity of repository and branch naming based on static rules defined within `sh config `.
+The project allows to verify the validity of repository and branch naming based on static rules defined within [config.json](./config/config.json).
 
 ## Usage
 

@@ -10,6 +10,13 @@ The project allows to verify the validity of repository and branch naming based 
 
 -   See [test.yml](./.github/workflows/test.yml)
 
+```yaml
+steps:
+- uses: HInfinity/pub-action-naming_conventions@main
+  with:
+    GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+```
+
 ## Built With
 
 -   JavaScript

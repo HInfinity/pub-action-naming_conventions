@@ -1,7 +1,7 @@
 {
     "branch": {
         "regex": "([a-z])+/([a-z0-9\\-])+",
-        "allowed_prefixes": "feature,bug,hotfix,release,experimental",
+        "allowed_prefixes": "feature,bug,hotfix,release,experimental,refactor",
         "ignore": "main,develop",
         "min_length": 5,
         "max_length": 30

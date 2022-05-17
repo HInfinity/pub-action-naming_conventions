@@ -8382,7 +8382,7 @@ var core = __nccwpck_require__(2186);
 // EXTERNAL MODULE: ./node_modules/@actions/github/lib/github.js
 var github = __nccwpck_require__(5438);
 ;// CONCATENATED MODULE: ./config/config.json
-const config_namespaceObject = JSON.parse('{"W":{"Sz":"([a-z])+/([a-z0-9\\\\-])+","Xf":"feature,bug,hotfix,release,experimental","ID":"main,develop","PZ":5,"Zm":30},"O":{"Sz":"([a-z0-9\\\\-_])+","PZ":5,"Zm":30}}');
+const config_namespaceObject = JSON.parse('{"W":{"Sz":"([a-z])+/([a-z0-9\\\\-])+","Xf":"feature,bug,hotfix,release,experimental,refactor","ID":"main,develop","PZ":5,"Zm":30},"O":{"Sz":"([a-z0-9\\\\-_])+","PZ":5,"Zm":30}}');
 ;// CONCATENATED MODULE: ./index.js
 
 
